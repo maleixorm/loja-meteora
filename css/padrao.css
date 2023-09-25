@@ -1,0 +1,14 @@
+:root {
+    --font-primary: 'Inter', sans-serif;
+    --palet-primary-black: #000000;
+    --palet-primary-gray: #cccccc;
+    --palet-primary-white: #ffffff;
+    --palet-primary-yellow: #daff01;
+    --palet-primary-purple: #9353ff;
+    --palet-secondary-red: #ee6471;
+    --palet-secondary-orange: #f87f46;
+}
+
+body {
+    font-family: var(--font-primary);
+}
