@@ -1,3 +1,5 @@
+@import url("cabecalho.css");
+
 :root {
     --font-primary: 'Inter', sans-serif;
     --palet-primary-black: #000000;
@@ -7,6 +9,7 @@
     --palet-primary-purple: #9353ff;
     --palet-secondary-red: #ee6471;
     --palet-secondary-orange: #f87f46;
+    --palet-secondary-black: #343A40;
 }
 
 body {

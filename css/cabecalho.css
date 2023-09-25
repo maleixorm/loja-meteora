@@ -1,8 +1,75 @@
 .cabecalho {
-    height: 58px;
     background-color: var(--palet-primary-black);
-    color: var(--palet-primary-gray);
+    height: 58px;
+    padding: 0 20px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    position: relative;
+}
+
+.cabecalho__botao {
+    left: -9999px;
+    position: absolute;
+    opacity: 0;
+}
+
+.cabecalho__menu-hamburger {
+    width: 18px;
+    height: 18px;
+    background-image: url("../images/icon-menu.svg");
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+.cabecalho__menu-x {
+    width: 18px;
+    height: 18px;
+    background-image: url("../images/marca-cruzada.png");
+    background-repeat: no-repeat;
+    display: none;
+}
+
+.lista__menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0%;
+}
+
+.lista__menu-item {
+    padding: 1em;
+    background-color: var(--palet-primary-black);
+    border-bottom: solid 1px var(--palet-primary-white);
+}
+
+.cabecalho__botao:checked~label .cabecalho__menu-hamburger {
+    display: none;
+}
+
+.cabecalho__botao:checked~label .cabecalho__menu-x {
+    display: inline-block;
+}
+
+.cabecalho__botao:checked~.lista__menu {
+    display: block;
+}
+
+.cabecalho__busca {
+    margin: 22px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.cabecalho__busca input {
+    width: 226px;
+    height: 35px;
+}
+
+.cabecalho__busca i {
+    padding: 9px 12px;
+    border: 1px solid var(--palet-primary-black);
 }
