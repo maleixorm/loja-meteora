@@ -1,0 +1,8 @@
+.cabecalho {
+    height: 58px;
+    background-color: var(--palet-primary-black);
+    color: var(--palet-primary-gray);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
