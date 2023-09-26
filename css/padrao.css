@@ -1,4 +1,7 @@
 @import url("cabecalho.css");
+@import url("busca.css");
+@import url("secaoBanner.css");
+@import url("secaoCategoria.css");
 
 :root {
     --font-primary: 'Inter', sans-serif;
@@ -14,4 +17,13 @@
 
 body {
     font-family: var(--font-primary);
+}
+
+.banner,
+.categoria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
 }
