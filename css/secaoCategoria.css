@@ -1,0 +1,14 @@
+.categoria__titulo {
+    margin: 24px 0;
+    font-family: var(--font-primary);
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.categoria__card-texto {
+    padding: 8px 16px;
+    text-align: center;
+    background-color: var(--palet-primary-black);
+    font-size: 16px;
+    color: var(--palet-primary-white);
+}

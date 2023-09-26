@@ -44,6 +44,11 @@
     border-bottom: solid 1px var(--palet-primary-white);
 }
 
+.lista__menu-link {
+    text-decoration: none;
+    color: var(--palet-primary-gray);
+}
+
 .cabecalho__botao:checked~label .cabecalho__menu-hamburger {
     display: none;
 }
@@ -57,19 +62,18 @@
 }
 
 .cabecalho__busca {
-    margin: 22px 0;
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     gap: 8px;
 }
 
 .cabecalho__busca input {
-    width: 226px;
-    height: 35px;
+    width: 186px;
+    height: 38px;
 }
 
 .cabecalho__busca i {
     padding: 9px 12px;
-    border: 1px solid var(--palet-primary-black);
+    border: 2px solid var(--palet-primary-black);
 }
