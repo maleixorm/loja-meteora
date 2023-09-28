@@ -1,0 +1,34 @@
+.facilidades {
+    background-color: var(--palet-primary-black);
+    margin: 16px auto;
+    padding: 32px auto;
+}
+
+.facilidades__titulo {
+    padding: 32px 0 32px 0;
+    color: var(--palet-primary-white);
+    text-align: center;
+}
+
+.facilidades__container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.facilidades__card {
+    display: flex;
+    gap: 12px;
+    max-width: 240px;
+    padding: 16px 0 32px 0;
+}
+
+.facilidades__card-titulo {
+    color: var(--palet-primary-yellow);
+    margin-bottom: 16px;
+}
+
+.facilidades__card-descricao {
+    color: var(--palet-primary-white);
+}

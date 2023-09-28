@@ -3,6 +3,7 @@
 @import url("secaoBanner.css");
 @import url("secaoCategoria.css");
 @import url("secaoProdutos.css");
+@import url("secaoFacilidades.css");
 
 :root {
     --font-primary: 'Inter', sans-serif;
@@ -22,12 +23,14 @@ body {
 
 h3 {
     font-size: 28px;
-    font-family: var(--font-primary);
     font-weight: 500;
 }
 
 h5 {
     font-size: 16px;
-    font-family: var(--font-primary);
     font-weight: 700;
+}
+
+p {
+    font-size: 13px;
 }
